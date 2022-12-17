@@ -1,0 +1,32 @@
+.talk {
+  min-height: 370px;
+  padding: 100px 98px;
+  background: url('/src/img/background/Rectangle\ 14\ \(1\).png') center (center/cover) no-repeat;
+  &__text {
+    font-size: 30px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto Slab";
+    text-align: center;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 51px;
+    width: 180px;
+    height: 50px;
+    border-radius: 2px;
+    border: 2px solid #ffffff;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    text-transform: uppercase;
+
+  }
+}

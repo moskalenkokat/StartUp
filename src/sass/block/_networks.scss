@@ -1,0 +1,41 @@
+.networks {
+  height: 300px;
+  padding: 100px 0 100px 0;
+  background-color: #c0301c;
+  &__items {
+    margin: 0 auto;
+    width: 185px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__item {
+    width: 35px;
+    height: 35px;
+    border-radius: 18px;
+    background-color: #c0301c;
+    border: 2px solid #ffffff;
+    img {
+      display: block;
+      margin-top: 15px;
+      margin: 5px auto;
+      width: 70%;
+      object-fit: cover;
+    }
+  }
+  &__descr {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto Slab";
+  }
+  .line {
+    background-color:white;
+  }
+};
+
+

@@ -1,0 +1,98 @@
+.contacts {
+  position: relative;
+  height: 660px;
+  padding: 95px 100px;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__wrapper {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+  img {
+    position: absolute;
+  }
+  &__title {
+    font-size: 14px;
+    line-height: 16px;
+    color: #6b6969;
+    font-family: "Montserrat";
+    margin-bottom: 10px;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-weight: 550;
+  }
+  &__text {
+    font-size: 12px;
+    color: #555555;
+    font-family: "Roboto Slab";
+    font-weight: 300;
+  }
+  &__form {
+    margin-top: 66px;
+    width: 726px;
+    height: 300px;
+  }
+  input {
+    padding-left: 15px;
+    outline:none;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #555555;
+    font-family: "Roboto Slab";
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-bottom: 24px;
+    width: 350px;
+    height: 35px;
+    border: 1px solid #555555;
+    &:focus {
+      border: 1px solid #c0301c;
+    }
+    
+    
+    
+  }
+  .message {
+    padding-left: 15px;
+    outline:none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 40px;
+    color: #555555;
+    font-family: "Roboto Slab";
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    width: 716px;
+    height: 105px;
+    &:focus {
+      border: 1px solid #c0301c;
+      
+    }
+
+  }
+
+  .submit {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #555555;
+    font-family: "Roboto Slab";
+    text-transform: uppercase;
+    background-color: #ffffff;
+    width: 175px;
+    height: 45px;
+    border: 1px solid #555555;
+    &:focus {
+      border: 1px solid #c0301c;
+    }
+    
+  }
+}

@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } 
+input:focus::-moz-placeholder { color:transparent; } 
+input:focus:-ms-input-placeholder { color:transparent; } 
+
+
+@import 'block/welcome';
+@import 'block/title';
+@import 'block/subtitle';
+@import 'block/services';
+@import 'block/line';
+@import 'block/about';
+@import 'block/works';
+@import 'block/talk';
+@import 'block/blog';
+@import 'block/brands';
+@import 'block/contacts';
+@import 'block/networks';
+

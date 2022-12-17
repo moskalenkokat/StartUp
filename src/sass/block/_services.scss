@@ -1,0 +1,40 @@
+.services {
+  max-height: 578px;
+  padding: 97px 0 97px 0;
+  background-color: white;
+
+  &_wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_descr {
+    width: 335px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 72px;
+  }
+
+  p {
+    margin-top: 28px;
+    font-size: 14px;
+    color: #555555;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: center;
+  }
+
+  &_descr {
+    font-size: 14px;
+    color: #555555;
+    font-weight: 300;
+    font-family: "Roboto Slab";
+    text-align: center;
+  }
+  &_text {
+    margin-top: 30px;
+  }
+}
